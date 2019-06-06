@@ -1,0 +1,107 @@
+/*--------- head ------------ */
+.header{
+  margin: 0px;
+  max-height: 10%;
+  background-color: hsla(31, 7%, 49%, 0.76);
+}
+ .logoimg{
+   margin-left: 10%;
+   max-width: 30%;
+ }
+
+ /*body*/
+ .body{
+   margin: 0px;
+ }
+.posters{
+  margin-top: 25%;
+  max-width: 100%;
+  margin-bottom: 10%;
+  border: 5px solid grey;
+  border-radius: 20px;
+  padding: 5px;
+}
+.info{
+  text-align: justify;
+  padding: 6%;
+}
+.list{
+  padding: 10%;
+}
+.list li{
+    list-style: none;
+}
+.list li :hover{
+  text-decoration: underline;
+  list-style: circle;
+
+}
+
+
+
+ /* Style all font awesome icons */
+.fa {
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+/*instagram*/
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/*query*/
+@media only screen and (max-width: 600px) {
+  .logoimg{
+    margin-left: 36%;
+    max-width: 30%;
+  }
+  .smedia{
+    margin-left: 28%;
+  }
+  .hidden{
+    visibility: hidden;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logoimg{
+    margin-left: 36%;
+    max-width: 30%;
+  }
+  .smedia{
+    margin-left: 28%;
+  }
+  .hidden{
+    visibility: hidden;
+  }
+}
+@media only screen and (min-width: 900px) {
+.header{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1020;
+}
